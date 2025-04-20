@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Կապ մեզ հետ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="logo">Mxeyan's Travel</div>
+    <nav>
+        <a href="index.html">Գլխավոր</a>
+        <a href="about.html">Մեր Մասին</a>
+        <a href="#">Լուծումներ</a>
+        <a href="comtact.html" class="active">Կապ</a>
+        <a href="#">Էջեր</a>
+      </nav>
+    <a href="#" class="btn">Սկսել հիմա</a>
+  </header>
+
+  <section class="contact-header">
+    <h1>Կապ մեզ հետ</h1>
+    <p>Mxeyan's Travel-ը պատրաստ է տրամադրել լավագույն լուծումը ըստ Ձեր կարիքների</p>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-info">
+      <h2>Կապի տվյալներ</h2>
+      <p>Ստորև կարող եք գտնել մեր շփման տվյալները՝ ցանկացած հարցով դիմելու համար։</p>
+      <ul>
+        <li><strong>Գլխամասային գրասենյակ:</strong><br> Ջալան Չեմպակա Վանգի 22<br>Ջակարտա, Ինդոնեզիա</li>
+        <li><strong>Էլ. փոստ:</strong><br> mxeyanvazgen013@gmail.com</li>
+        <li><strong>Հեռախոս:</strong><br> +37494442172<br> Ֆաքս՝ +37498571019</li>
+        <li class="socials">
+          <strong>Հետևեք մեզ սոց. ցանցերում:</strong><br>
+          <a href="#">ՖԲ</a> | <a href="#">Ինստա</a> | <a href="#">Թվիթեր</a> | <a href="#">ՅուԹուբ</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact-form">
+      <h2>Ուղարկեք հաղորդագրություն</h2>
+      <form>
+        <input type="text" placeholder="Անուն">
+        <input type="text" placeholder="Ընկերություն">
+        <input type="text" placeholder="Հեռախոս">
+        <input type="email" placeholder="Էլ. փոստ">
+        <input type="text" placeholder="Թեմա">
+        <textarea placeholder="Հաղորդագրություն"></textarea>
+        <button type="submit">Ուղարկել</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19805.383!2d-0.127758!3d51.507351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b333ae4f2a7%3A0xcee1f3280b9a567a!2sLondon!5e0!3m2!1sen!2suk!4v1618991623243!5m2!1sen!2suk"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <div class="footer-columns">
+      <div>
+        <h3>Գլխամասային գրասենյակ</h3>
+        <p>Loka Digital Tower<br>Jln.Cempaka Wangi No 22<br>Ջակարտա, Ինդոնեզիա</p>
+      </div>
+      <div>
+        <h3>Սկսել</h3>
+        <ul>
+          <li>Ստարտափներ</li>
+          <li>Վճարումներ</li>
+          <li>Բիզնեսներ</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Աջակցություն</h3>
+        <ul>
+          <li>Օգնության կենտրոն</li>
+          <li>Իմ հաշիվը</li>
+          <li>Կապ մեզ հետ</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Նորություններ</h3>
+        <p>Ստացեք մեր առաջարկները՝ բաժանորդագրվելով։</p>
+        <input type="email" placeholder="Էլ. փոստ">
+        <button>Բաժանորդագրվել</button>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2025 Mxeyan's Travel. Բոլոր իրավունքները պաշտպանված են։</p>
+  </footer>
+
+</body>
+</html>
+<style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+
+.top-bar {
+  background: #0a3d62;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.top-bar nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.top-bar .btn {
+  background: #1e90ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-header {
+  background: url('banner.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  background-color: #0a3d62;
+}
+
+.contact-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  margin: -60px auto 40px;
+  width: 90%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form form button {
+  background: #1e90ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+footer {
+  background: #0a3d62;
+  color: white;
+  padding: 40px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-columns div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-columns h3 {
+  margin-bottom: 10px;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.footer-columns button {
+  padding: 10px 20px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+</style>
